@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE107CFA15760A0400863BBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE107CF915760A0400863BBA /* UIKit.framework */; };
+		FE107CFC15760A0400863BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE107CFB15760A0400863BBA /* Foundation.framework */; };
+		FE107CFE15760A0400863BBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE107CFD15760A0400863BBA /* CoreGraphics.framework */; };
+		FE107D0415760A0400863BBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE107D0215760A0400863BBA /* InfoPlist.strings */; };
+		FE107D0615760A0500863BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE107D0515760A0400863BBA /* main.m */; };
+		FE107D0A15760A0500863BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE107D0915760A0500863BBA /* AppDelegate.m */; };
+		FE107D0D15760A0500863BBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE107D0C15760A0500863BBA /* ViewController.m */; };
+		FE107D1015760A0500863BBA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE107D0E15760A0500863BBA /* ViewController.xib */; };
+		FE107D1915760A8D00863BBA /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE107D1715760A8D00863BBA /* AskerViewController.m */; };
+		FE107D1A15760A8D00863BBA /* AskerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE107D1815760A8D00863BBA /* AskerViewController.xib */; };
+		FE1661F0157E1442004210BD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1661EF157E1442004210BD /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE107CF515760A0400863BBA /* LabelMover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelMover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE107CF915760A0400863BBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE107CFB15760A0400863BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE107CFD15760A0400863BBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE107D0115760A0400863BBA /* LabelMover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LabelMover-Info.plist"; sourceTree = "<group>"; };
+		FE107D0315760A0400863BBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE107D0515760A0400863BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE107D0715760A0500863BBA /* LabelMover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabelMover-Prefix.pch"; sourceTree = "<group>"; };
+		FE107D0815760A0500863BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE107D0915760A0500863BBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE107D0B15760A0500863BBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE107D0C15760A0500863BBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE107D0F15760A0500863BBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FE107D1615760A8D00863BBA /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
+		FE107D1715760A8D00863BBA /* AskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerViewController.m; sourceTree = "<group>"; };
+		FE107D1815760A8D00863BBA /* AskerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskerViewController.xib; sourceTree = "<group>"; };
+		FE1661EF157E1442004210BD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE107CF215760A0400863BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1661F0157E1442004210BD /* CoreMotion.framework in Frameworks */,
+				FE107CFA15760A0400863BBA /* UIKit.framework in Frameworks */,
+				FE107CFC15760A0400863BBA /* Foundation.framework in Frameworks */,
+				FE107CFE15760A0400863BBA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE107CEA15760A0400863BBA = {
+			isa = PBXGroup;
+			children = (
+				FE1661EF157E1442004210BD /* CoreMotion.framework */,
+				FE107CFF15760A0400863BBA /* LabelMover */,
+				FE107CF815760A0400863BBA /* Frameworks */,
+				FE107CF615760A0400863BBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE107CF615760A0400863BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE107CF515760A0400863BBA /* LabelMover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE107CF815760A0400863BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE107CF915760A0400863BBA /* UIKit.framework */,
+				FE107CFB15760A0400863BBA /* Foundation.framework */,
+				FE107CFD15760A0400863BBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE107CFF15760A0400863BBA /* LabelMover */ = {
+			isa = PBXGroup;
+			children = (
+				FE107D0815760A0500863BBA /* AppDelegate.h */,
+				FE107D0915760A0500863BBA /* AppDelegate.m */,
+				FE107D0B15760A0500863BBA /* ViewController.h */,
+				FE107D0C15760A0500863BBA /* ViewController.m */,
+				FE107D0E15760A0500863BBA /* ViewController.xib */,
+				FE107D1615760A8D00863BBA /* AskerViewController.h */,
+				FE107D1715760A8D00863BBA /* AskerViewController.m */,
+				FE107D1815760A8D00863BBA /* AskerViewController.xib */,
+				FE107D0015760A0400863BBA /* Supporting Files */,
+			);
+			path = LabelMover;
+			sourceTree = "<group>";
+		};
+		FE107D0015760A0400863BBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE107D0115760A0400863BBA /* LabelMover-Info.plist */,
+				FE107D0215760A0400863BBA /* InfoPlist.strings */,
+				FE107D0515760A0400863BBA /* main.m */,
+				FE107D0715760A0500863BBA /* LabelMover-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE107CF415760A0400863BBA /* LabelMover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE107D1315760A0500863BBA /* Build configuration list for PBXNativeTarget "LabelMover" */;
+			buildPhases = (
+				FE107CF115760A0400863BBA /* Sources */,
+				FE107CF215760A0400863BBA /* Frameworks */,
+				FE107CF315760A0400863BBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelMover;
+			productName = LabelMover;
+			productReference = FE107CF515760A0400863BBA /* LabelMover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE107CEC15760A0400863BBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "daramkun@daram.pe.kr";
+			};
+			buildConfigurationList = FE107CEF15760A0400863BBA /* Build configuration list for PBXProject "LabelMover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE107CEA15760A0400863BBA;
+			productRefGroup = FE107CF615760A0400863BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE107CF415760A0400863BBA /* LabelMover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE107CF315760A0400863BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE107D0415760A0400863BBA /* InfoPlist.strings in Resources */,
+				FE107D1015760A0500863BBA /* ViewController.xib in Resources */,
+				FE107D1A15760A8D00863BBA /* AskerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE107CF115760A0400863BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE107D0615760A0500863BBA /* main.m in Sources */,
+				FE107D0A15760A0500863BBA /* AppDelegate.m in Sources */,
+				FE107D0D15760A0500863BBA /* ViewController.m in Sources */,
+				FE107D1915760A8D00863BBA /* AskerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE107D0215760A0400863BBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE107D0315760A0400863BBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE107D0E15760A0500863BBA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE107D0F15760A0500863BBA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE107D1115760A0500863BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE107D1215760A0500863BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE107D1415760A0500863BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabelMover/LabelMover-Prefix.pch";
+				INFOPLIST_FILE = "LabelMover/LabelMover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE107D1515760A0500863BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LabelMover/LabelMover-Prefix.pch";
+				INFOPLIST_FILE = "LabelMover/LabelMover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE107CEF15760A0400863BBA /* Build configuration list for PBXProject "LabelMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE107D1115760A0500863BBA /* Debug */,
+				FE107D1215760A0500863BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE107D1315760A0500863BBA /* Build configuration list for PBXNativeTarget "LabelMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE107D1415760A0500863BBA /* Debug */,
+				FE107D1515760A0500863BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE107CEC15760A0400863BBA /* Project object */;
+}

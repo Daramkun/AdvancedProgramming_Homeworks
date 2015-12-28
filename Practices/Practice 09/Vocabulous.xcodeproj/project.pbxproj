@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE49873C153EB3E800AC277A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49873B153EB3E800AC277A /* UIKit.framework */; };
+		FE49873E153EB3E800AC277A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49873D153EB3E800AC277A /* Foundation.framework */; };
+		FE498740153EB3E800AC277A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49873F153EB3E800AC277A /* CoreGraphics.framework */; };
+		FE498746153EB3E800AC277A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE498744153EB3E800AC277A /* InfoPlist.strings */; };
+		FE498748153EB3E800AC277A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE498747153EB3E800AC277A /* main.m */; };
+		FE49874C153EB3E800AC277A /* VocabulousAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE49874B153EB3E800AC277A /* VocabulousAppDelegate.m */; };
+		FE49874F153EB3E800AC277A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE49874D153EB3E800AC277A /* MainWindow.xib */; };
+		FE498757153EB41A00AC277A /* WordListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE498756153EB41A00AC277A /* WordListTableViewController.m */; };
+		FE7C8BB51547E8070051DF48 /* 0425-prec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE7C8BB41547E8070051DF48 /* 0425-prec.jpg */; };
+		FEF06A7F1545260D000F0895 /* vocawords.txt in Resources */ = {isa = PBXBuildFile; fileRef = FEF06A7E1545260D000F0895 /* vocawords.txt */; };
+		FEF06A8215452A07000F0895 /* DefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF06A8115452A07000F0895 /* DefinitionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE498737153EB3E800AC277A /* Vocabulous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocabulous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE49873B153EB3E800AC277A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE49873D153EB3E800AC277A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE49873F153EB3E800AC277A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE498743153EB3E800AC277A /* Vocabulous-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vocabulous-Info.plist"; sourceTree = "<group>"; };
+		FE498745153EB3E800AC277A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE498747153EB3E800AC277A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE498749153EB3E800AC277A /* Vocabulous-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vocabulous-Prefix.pch"; sourceTree = "<group>"; };
+		FE49874A153EB3E800AC277A /* VocabulousAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VocabulousAppDelegate.h; sourceTree = "<group>"; };
+		FE49874B153EB3E800AC277A /* VocabulousAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VocabulousAppDelegate.m; sourceTree = "<group>"; };
+		FE49874E153EB3E800AC277A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FE498755153EB41A00AC277A /* WordListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListTableViewController.h; sourceTree = "<group>"; };
+		FE498756153EB41A00AC277A /* WordListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListTableViewController.m; sourceTree = "<group>"; };
+		FE7C8BB41547E8070051DF48 /* 0425-prec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0425-prec.jpg"; sourceTree = "<group>"; };
+		FEF06A7E1545260D000F0895 /* vocawords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vocawords.txt; sourceTree = "<group>"; };
+		FEF06A8015452A07000F0895 /* DefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionViewController.h; sourceTree = "<group>"; };
+		FEF06A8115452A07000F0895 /* DefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE498734153EB3E800AC277A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE49873C153EB3E800AC277A /* UIKit.framework in Frameworks */,
+				FE49873E153EB3E800AC277A /* Foundation.framework in Frameworks */,
+				FE498740153EB3E800AC277A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE49872C153EB3E800AC277A = {
+			isa = PBXGroup;
+			children = (
+				FE498741153EB3E800AC277A /* Vocabulous */,
+				FE49873A153EB3E800AC277A /* Frameworks */,
+				FE498738153EB3E800AC277A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE498738153EB3E800AC277A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE498737153EB3E800AC277A /* Vocabulous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE49873A153EB3E800AC277A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE49873B153EB3E800AC277A /* UIKit.framework */,
+				FE49873D153EB3E800AC277A /* Foundation.framework */,
+				FE49873F153EB3E800AC277A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE498741153EB3E800AC277A /* Vocabulous */ = {
+			isa = PBXGroup;
+			children = (
+				FE7C8BB41547E8070051DF48 /* 0425-prec.jpg */,
+				FE49874A153EB3E800AC277A /* VocabulousAppDelegate.h */,
+				FE49874B153EB3E800AC277A /* VocabulousAppDelegate.m */,
+				FE49874D153EB3E800AC277A /* MainWindow.xib */,
+				FE498742153EB3E800AC277A /* Supporting Files */,
+				FE498755153EB41A00AC277A /* WordListTableViewController.h */,
+				FE498756153EB41A00AC277A /* WordListTableViewController.m */,
+				FEF06A7E1545260D000F0895 /* vocawords.txt */,
+				FEF06A8015452A07000F0895 /* DefinitionViewController.h */,
+				FEF06A8115452A07000F0895 /* DefinitionViewController.m */,
+			);
+			path = Vocabulous;
+			sourceTree = "<group>";
+		};
+		FE498742153EB3E800AC277A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE498743153EB3E800AC277A /* Vocabulous-Info.plist */,
+				FE498744153EB3E800AC277A /* InfoPlist.strings */,
+				FE498747153EB3E800AC277A /* main.m */,
+				FE498749153EB3E800AC277A /* Vocabulous-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE498736153EB3E800AC277A /* Vocabulous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE498752153EB3E800AC277A /* Build configuration list for PBXNativeTarget "Vocabulous" */;
+			buildPhases = (
+				FE498733153EB3E800AC277A /* Sources */,
+				FE498734153EB3E800AC277A /* Frameworks */,
+				FE498735153EB3E800AC277A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vocabulous;
+			productName = Vocabulous;
+			productReference = FE498737153EB3E800AC277A /* Vocabulous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE49872E153EB3E800AC277A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FE498731153EB3E800AC277A /* Build configuration list for PBXProject "Vocabulous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE49872C153EB3E800AC277A;
+			productRefGroup = FE498738153EB3E800AC277A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE498736153EB3E800AC277A /* Vocabulous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE498735153EB3E800AC277A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE498746153EB3E800AC277A /* InfoPlist.strings in Resources */,
+				FE49874F153EB3E800AC277A /* MainWindow.xib in Resources */,
+				FEF06A7F1545260D000F0895 /* vocawords.txt in Resources */,
+				FE7C8BB51547E8070051DF48 /* 0425-prec.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE498733153EB3E800AC277A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE498748153EB3E800AC277A /* main.m in Sources */,
+				FE49874C153EB3E800AC277A /* VocabulousAppDelegate.m in Sources */,
+				FE498757153EB41A00AC277A /* WordListTableViewController.m in Sources */,
+				FEF06A8215452A07000F0895 /* DefinitionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE498744153EB3E800AC277A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE498745153EB3E800AC277A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE49874D153EB3E800AC277A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE49874E153EB3E800AC277A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE498750153EB3E800AC277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE498751153EB3E800AC277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE498753153EB3E800AC277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocabulous/Vocabulous-Prefix.pch";
+				INFOPLIST_FILE = "Vocabulous/Vocabulous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE498754153EB3E800AC277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vocabulous/Vocabulous-Prefix.pch";
+				INFOPLIST_FILE = "Vocabulous/Vocabulous-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE498731153EB3E800AC277A /* Build configuration list for PBXProject "Vocabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE498750153EB3E800AC277A /* Debug */,
+				FE498751153EB3E800AC277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE498752153EB3E800AC277A /* Build configuration list for PBXNativeTarget "Vocabulous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE498753153EB3E800AC277A /* Debug */,
+				FE498754153EB3E800AC277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE49872E153EB3E800AC277A /* Project object */;
+}

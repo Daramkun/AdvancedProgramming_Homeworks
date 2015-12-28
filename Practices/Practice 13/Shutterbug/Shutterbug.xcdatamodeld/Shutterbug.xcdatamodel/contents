@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11D50d" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Photo" representedClassName="Photo">
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uniqueId" optional="YES" attributeType="String"/>
+        <relationship name="whoTook" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Photographer" inverseName="photos" inverseEntity="Photographer"/>
+    </entity>
+    <entity name="Photographer" representedClassName="Photographer">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="photos" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="whoTook" inverseEntity="Photo"/>
+    </entity>
+    <elements>
+        <element name="Photo" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Photographer" positionX="367" positionY="168" width="128" height="75"/>
+    </elements>
+</model>
